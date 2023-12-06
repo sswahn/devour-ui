@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import ShareIcon from './ShareIcon.js'
-import SharedIcon from './SharedIcon.js'
+import ShareIcon from '../Icons/ShareIcon.js'
+import SharedIcon from '../Icons/SharedIcon.js'
 import styles from './styles.module.css'
 
 const ShareButton = ({ className, onClick }) => {
