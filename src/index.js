@@ -1,3 +1,4 @@
+import Avatar from './components/Avatar/Avatar.js'
 import Chat from './components/Chat/Chat.js'
 import Checkbox from './components/Checkbox/Checkbox.js'
 import ConfirmForgotPassword from './components/ConfirmForgotPassword/ConfirmForgotPassword.js'
@@ -11,6 +12,7 @@ import Sidebar from './components/Sidebar/Sidebar.js'
 import Tabs from './components/Tabs/Tabs.js'
 
 export {
+  Avatar,
   Chat,
   Checkbox,
   ConfirmForgotPassword,
