@@ -1,6 +1,6 @@
 import { memo } from 'react'
-import SuccessIcon from './SuccessIcon.js'
-import ErrorIcon from './ErrorIcon.js'
+import SuccessIcon from '../Icons/SuccessIcon.js'
+import ErrorIcon from '../Icons/ErrorIcon.js'
 import styles from './styles.module.css'
 
 const SubmitButton = memo(({ text, message, error, disabled }) => {
