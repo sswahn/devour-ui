@@ -11,15 +11,20 @@ npm install devour-ui
 Import the components.
 ```javascript
 import {
+  Avatar,
+  BookmarkButton,
   Chat,
   Checkbox,
+  CommentButton,
   ConfirmForgotPassword,
   Dropdown,
   ForgotPassword,
+  LikeButton,
   Login,
   Modal,
   Register,
   Search,
+  ShareButton,
   Sidebar,
   Tabs
 } from 'devour-ui'
@@ -116,6 +121,17 @@ Forgot password form, for requesting a password reset.
 />
 ```
 
+### LikeButton
+The LikeButton has an optional choice of heart or hand icons, it defaults to hand. Handle click events to implement desired functionality.
+```javascript
+<LikeButton
+  className="custom-like-btn"
+  icon="heart"
+  count={0}
+  onClick={handleLikeClick}
+/>
+```
+
 ### Login
 Creates a user login form, with links to registration, and forgot password forms.
 ```javascript
@@ -148,6 +164,15 @@ Creates a user registration form.
 The Search component provides an input field for searching, and it allows you to capture search input changes.
 ```javascript
 <Search className="custom-search" onChange={handleSearch} placeholder="Search..." />
+```
+
+### ShareButton
+The ShareButton component is a button users can click to share content.
+```javascript
+<ShareButton
+  className="custom-share-btn"
+  onClick={handleShareClick}
+/>
 ```
 
 ### Sidebar
