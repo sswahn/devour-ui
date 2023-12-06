@@ -22,7 +22,7 @@ import {
   Search,
   Sidebar,
   Tabs
-} from '@sswahn/login'
+} from 'devour-ui'
 ```
 
 ### Chat
