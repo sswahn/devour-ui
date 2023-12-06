@@ -11,6 +11,7 @@ import Login from './components/Login/Login.js'
 import Modal from './components/Modal/Modal.js'
 import Register from './components/Register/Register.js'
 import Search from './components/Search/Search.js'
+import ShareButton from './components/ShareButton/ShareButton.js'
 import Sidebar from './components/Sidebar/Sidebar.js'
 import Tabs from './components/Tabs/Tabs.js'
 
@@ -28,6 +29,7 @@ export {
   Modal,
   Register,
   Search,
+  ShareButton,
   Sidebar,
   Tabs
 }
