@@ -23,6 +23,7 @@ export {
   ConfirmForgotPassword,
   Dropdown,
   ForgotPassword,
+  LikeButton,
   Login,
   Modal,
   Register,
