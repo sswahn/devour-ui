@@ -1,0 +1,80 @@
+/* Register css */
+
+.register {
+  background-color: white; 
+  border: 1px solid #555;
+  border-radius: 10px; 
+  box-sizing: border-box;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 500px; 
+  padding: 10px 15px 50px 15px;
+  width: 100%; 
+}
+
+.register h2 {
+  font-size: 26px; 
+  font-weight: normal;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.register div {
+  position: relative;
+}
+
+.register > div:first-of-type,
+.register > div:nth-of-type(2),
+.register > div:nth-of-type(3),
+.register > div:nth-of-type(4) {
+  margin-bottom: 20px;
+}
+
+.register div:nth-of-type(4) {
+  margin-bottom: 15px;
+}
+
+.register input {
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: black;
+  font-size: 16px;
+  padding: 15px 15px 15px 40px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  width: 100%;
+}
+
+.register input:hover {
+  border-color: black;
+}
+
+.register svg {
+  font-size: 20px;
+  left: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.register details {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+
+.register summary {
+  cursor: pointer;
+  font-size: 12px;
+  width: 160px;
+}
+
+.register ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 5px 0 0 0;
+}
+
+.register li {
+  margin-left: 12px;
+}
