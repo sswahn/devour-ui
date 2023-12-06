@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import OpenEmailIcon from './OpenEmailIcon.js'
+import OpenEmailIcon from '../Icons/OpenEmailIcon.js'
 import UserIcon from '../Icons/UserIcon.js'
 import PasswordIcon from '../Icons/PasswordIcon.js'
 import SubmitButton from '../SubmitButton/SubmitButton.js'
