@@ -25,6 +25,27 @@ import {
 } from 'devour-ui'
 ```
 
+### Avatar
+The Avatar component displays user avatars and has a built in default when no image is provided. Use an optional size prop for changing dimensions.
+```javascript
+<Avatar
+  className="custom-avatar"
+  image="/path/to/user-avatar.jpg"
+  username="JohnDoe"
+  onClick={handleClick}
+  size="50px"
+/>
+```
+
+### BookmarkButton
+The BookmarkButton component represents a button that users can interact with to bookmark or save content.
+```javascript
+<BookmarkButton
+  className="custom-bookmark-btn"
+  onClick={handleBookmarkClick}
+/>
+```
+
 ### Chat
 A simple and customizable chat component with input and display.
 ```javascript
