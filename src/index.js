@@ -5,6 +5,7 @@ import Dropdown from './components/Dropdown/Dropdown.js'
 import Modal from './components/Modal/Modal.js'
 import Search from './components/Search/Search.js'
 import Sidebar from './components/Sidebar/Sidebar.js'
+import Tabs from './components/Tabs/Tabs.js'
 
 export {
   Chat,
@@ -14,4 +15,5 @@ export {
   Modal,
   Search,
   Sidebar,
+  Tabs
 }
