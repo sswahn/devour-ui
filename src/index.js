@@ -1,6 +1,7 @@
 import Chat from './components/Chat/Chat.js'
 import Checkbox from './components/Checkbox/Checkbox.js'
 import Dropdown from './components/Dropdown/Dropdown.js'
+import ForgotPassword from './components/ForgotPassword/ForgotPassword.js'
 import Login from './components/Login/Login.js'
 import Modal from './components/Modal/Modal.js'
 import Register from './components/Register/Register.js'
@@ -12,6 +13,7 @@ export {
   Chat,
   Checkbox,
   Dropdown,
+  ForgotPassword,
   Login,
   Modal,
   Register,
