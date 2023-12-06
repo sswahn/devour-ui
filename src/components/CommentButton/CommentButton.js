@@ -1,4 +1,4 @@
-import CommentIcon from './CommentIcon.js'
+import CommentIcon from '../Icons/CommentIcon.js'
 import styles from './styles.module.css'
 
 const CommentButton = ({ className, count, onClick }) => {
