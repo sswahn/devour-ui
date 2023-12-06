@@ -15,8 +15,10 @@ import Tabs from './components/Tabs/Tabs.js'
 
 export {
   Avatar,
+  BookmarkButton,
   Chat,
   Checkbox,
+  CommentButton,
   ConfirmForgotPassword,
   Dropdown,
   ForgotPassword,
