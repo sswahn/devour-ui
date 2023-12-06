@@ -20,7 +20,7 @@ import {
 } from '@sswahn/login'
 ```
 
-### chat
+### Chat
 A simple and customizable chat component with input and display.
 ```javascript
 const [messages, setMessages] = [
@@ -35,7 +35,7 @@ const [messages, setMessages] = [
 />
 ```
 
-### checkbox
+### Checkbox
 The Checkbox component allows you to create customizable checkboxes with labels.
 ```javascript
 <Checkbox
@@ -46,7 +46,16 @@ The Checkbox component allows you to create customizable checkboxes with labels.
 />
 ```
 
-### dropdown
+### Confirm Forgot Password
+Confirm forgot password form. Using a confirmation code users can reset their passwords.
+```javascript
+<ConfirmForgotPassword
+  className="custom-confirm-forgot-password"
+  onSubmit={handleOnSubmit}
+/>
+```
+
+### Dropdown
 The Dropdown component provides a simple way to create dropdown menus with various options, including optional icons.
 ```javascript
 const dropdownOptions = [
@@ -62,7 +71,27 @@ const dropdownOptions = [
 />
 ```
 
-### modal
+### Forgot Password
+Forgot password form, for requesting a password reset.
+```javascript
+<ForgotPassword
+  className="custom-forgot-password"
+  onSubmit={handleOnSubmit}
+/>
+```
+
+### Login
+Creates a user login form, with links to registration, and forgot password forms.
+```javascript
+<Login
+  className="custom-login"
+  onSubmit={handleOnSubmit}
+  forgotPassword={handleOpenForgotPassword}
+  registerUser={handleOpenRegistration}
+/>
+```
+
+### Modal
 The Modal component allows you to create modal dialogs that can be opened and closed programmatically.
 ```javascript
 <Modal className="custom-modal" open={isOpen} onClose={handleCloseModal}>
@@ -70,13 +99,22 @@ The Modal component allows you to create modal dialogs that can be opened and cl
 </Modal>
 ```
 
-### search
+### Register
+Creates a user registration form.
+```javascript
+<Register
+  className="custom-register"
+  onSubmit={handleOnSubmit}
+/>
+```
+
+### Search
 The Search component provides an input field for searching, and it allows you to capture search input changes.
 ```javascript
 <Search className="custom-search" onChange={handleSearch} placeholder="Search..." />
 ```
 
-### sidebar
+### Sidebar
 The Sidebar component helps you create flexible sidebars with an open and close functionality.
 ```javascript
 <Sidebar className="custom-sidebar" open={isOpen} onClose={handleCloseSidebar}>
@@ -84,7 +122,7 @@ The Sidebar component helps you create flexible sidebars with an open and close 
 </Sidebar>
 ```
 
-### tabs
+### Tabs
 ```javascript
 const tabOptions = [
   {label: 'Tab 1', content: <p>Content for Tab 1</p>},
