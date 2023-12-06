@@ -1,5 +1,6 @@
 import Chat from './components/Chat/Chat.js'
 import Checkbox from './components/Checkbox/Checkbox.js'
+import ConfirmForgotPassword from './components/ConfirmForgotPassword/ConfirmForgotPassword.js'
 import Dropdown from './components/Dropdown/Dropdown.js'
 import ForgotPassword from './components/ForgotPassword/ForgotPassword.js'
 import Login from './components/Login/Login.js'
@@ -12,6 +13,7 @@ import Tabs from './components/Tabs/Tabs.js'
 export {
   Chat,
   Checkbox,
+  ConfirmForgotPassword,
   Dropdown,
   ForgotPassword,
   Login,
