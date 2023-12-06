@@ -8,7 +8,7 @@ Import the components.
 import {
   Chat,
   Checkbox,
-　ConfirmForgotPassword,
+  ConfirmForgotPassword,
   Dropdown,
   ForgotPassword,
   Login,
