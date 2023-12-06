@@ -1,0 +1,21 @@
+{
+  "name": "@sswahn/devour-ui",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "devour-ui",
+    "components",
+    "custom",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sswahn/devour-ui"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
