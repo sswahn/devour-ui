@@ -72,6 +72,16 @@ The Checkbox component allows you to create customizable checkboxes with labels.
 />
 ```
 
+### CommentButton
+The CommentButton component is a button users can click to interact with comments. It displays the comment count and is customizable with a custom class.
+```javascript
+<CommentButton
+  className="custom-Comment-btn"
+  count={0}
+  onClick={handleCommentClick}
+/>
+```
+
 ### Confirm Forgot Password
 Confirm forgot password form. Using a confirmation code users can reset their passwords.
 ```javascript
