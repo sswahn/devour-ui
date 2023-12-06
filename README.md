@@ -1,5 +1,10 @@
 # devour-ui
 
+## Installation
+Using npm.
+```bash
+npm install devour-ui
+```
 
 ## Usage
 
